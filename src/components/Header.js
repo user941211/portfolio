@@ -10,9 +10,9 @@ const Header = () => {
                 <h1 className="text-2xl font-bold"><Link to="/">포트폴리오</Link></h1>
                 <nav>
                 <ul className="flex space-x-4">
-                    <li><a href="/" className="hover:text-gray-300">기술 스택</a></li>
-                    <li><a href="/projects" className="hover:text-gray-300">프로젝트</a></li>
-                    <li><a href="/contact" className="hover:text-gray-300">Contact</a></li>
+                    <li><a href="/portfolio" className="hover:text-gray-300">기술 스택</a></li>
+                    <li><a href="/portfolio/projects" className="hover:text-gray-300">프로젝트</a></li>
+                    <li><a href="/portfolio/contact" className="hover:text-gray-300">Contact</a></li>
                 </ul>
                 </nav>
             </div>
