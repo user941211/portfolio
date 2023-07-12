@@ -6,7 +6,7 @@ const Skills = () => {
     <div className="flex justify-center  h-screen">
       <div className="w-full p-6 bg-white rounded shadow">
         <h2 className="text-3xl font-bold mb-4">Contact</h2>
-        <form onSubmit={handleSubmit}>
+        <form>
           <div className="mb-4">
             <label htmlFor="name" className="block font-bold mb-1">
               Name:
