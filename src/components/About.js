@@ -9,7 +9,7 @@ const About = () => {
 
     return (
         <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-4">기술 스택</h2>
+            <h2 className="Title text-3xl font-bold mb-4">기술 스택</h2>
             <div className="flex flex-wrap justify-center items-center">
                 <div className="w-400 h-400 overflow-hidden rounded-lg mx-4 my-4">
                     <img src={html_css_js} alt="Profile" style={{ width: '400px', height: '400px' }} />
