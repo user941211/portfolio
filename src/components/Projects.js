@@ -8,20 +8,20 @@ const Projects = () => {
   ]);
 
   return (
-    <section className="container mx-auto py-8 px-6">
-      <h2 className="text-3xl font-bold mb-4">프로젝트</h2>
-      <p>id : user941211</p>
-      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {projects.map(project => (
-          <li key={project.id} className="border border-gray-200 rounded-lg p-4">
-            <a href={project.link} className="hover:text-blue-500">
-              <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-              <p>{project.description}</p>
-            </a>
-          </li>
-        ))}
-      </ul>
-    </section>
+      <section className="container mx-auto py-8 px-6">
+          <div className="Title_me underline decoration-gray-500 underline-offset-8 decoration-1 mt-9">Projects</div>
+          <p>id : user941211</p>
+          <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {projects.map(project => (
+                <li key={project.id} className="border border-gray-200 rounded-lg p-4">
+                    <a href={project.link} className="hover:text-blue-500">
+                        <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                        <p>{project.description}</p>
+                    </a>
+                </li>
+              ))}
+          </ul>
+      </section>
   );
 };
 

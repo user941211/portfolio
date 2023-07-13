@@ -1,6 +1,13 @@
-.Title{
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.Title_me{
   color:#000000;
-  border-bottom-color: #000000;
+  font-family: Black Han Sans,sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
 }
 .baseBackGroundImage {
   background-image: url('./components/notebook.jpg');

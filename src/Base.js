@@ -3,7 +3,6 @@ import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import image from './components/notebook.jpg';
 
 const Base = () => {
   const handleButtonClick = (moduleId) => {
