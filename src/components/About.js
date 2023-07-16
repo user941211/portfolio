@@ -37,7 +37,7 @@ const About = () => {
                 </div>
                 <div className="flex flex-row flex-nowrap w-full max-w-[14rem] mx-auto opacity-80">
                     <div className="w-15 h-15 p-3">
-                        <img src={send} alt='이메일'></img>
+                        <img src={Email} alt='이메일' className="w-10 h-10"></img>
                     </div>
                     <div>
                         <div className="mb-2 font-semibold text-lg">

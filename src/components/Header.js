@@ -39,11 +39,11 @@ const Header = ({onButtonClick}) => {
                     <div className="hidden md:block w-full ">
                     {/* pc용 */}
                     <h1 className="text-2xl font-bold float-left cursor-pointer" onClick={() => onButtonClick(1)}>BJS's Portfolio</h1>
-                    <dav className="float-right ml-4 flex items-center">
-                        <dav><button style={buttonStyle} className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(2)}>About Me</button></dav>
-                        <dav><button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(3)}>Skills</button></dav>
-                        <dav><button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(4)}>Projects</button></dav>
-                    </dav>
+                    <div className="float-right ml-4 flex items-center">
+                        <div><button style={buttonStyle} className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(2)}>About Me</button></div>
+                        <div><button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(3)}>Skills</button></div>
+                        <div><button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(4)}>Projects</button></div>
+                    </div>
                     </div>
                     <div className="md:hidden">
                     {/* 모바일용 미완 */}
@@ -67,7 +67,7 @@ const Header = ({onButtonClick}) => {
                     </div>
                 </nav>
                 {isMenuOpen && (
-                    <div className="md:hidden mt-4 bg-white">
+                    <div className="md:hidden mt-4 bg-white duration-300">
                         <ul className="flex flex-col items-center space-y-4 text-black">
                         <li>
                             <button

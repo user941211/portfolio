@@ -32,7 +32,6 @@ const Skills = () => {
                   <div>
                       <div><img src={mysql} className="object-contain w-60 h-60 mt-2 mx-auto" alt="속성-값 db mysql"></img></div>
                       <div><img src={node_js} className="object-contain w-60 h-60 mt-2 mx-auto" alt="node.js 기초"></img></div>
-                      
                   </div>
               </div>
               
