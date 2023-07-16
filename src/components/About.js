@@ -7,7 +7,7 @@ import location from '../image/location.png';
 const About = () => {
     return (
         <div className="max-w-6xl w-full mx-auto py-8 px-16">
-            <div className="Title_me underline decoration-gray-500 underline-offset-8 decoration-1 mt-9">About Me</div>
+            <div className="Title_me underline decoration-gray-500 underline-offset-8 decoration-1 mt-9 font-bold text-5xl p-3">About Me</div>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                 <div className="flex flex-row flex-nowrap w-full max-w-[14rem] mx-auto opacity-80">
                     <div className="w-15 h-15 p-3">

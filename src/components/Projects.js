@@ -6,7 +6,7 @@ const Projects = () => {
     <article className="bg-cyan-600">
       <div className="max-w-6xl w-full mx-auto py-8 px-16">
         <div>
-          <div className="Title_me underline decoration-gray-950 underline-offset-8 decoration-1 mt-9">Projects</div>
+          <div className="Title_me underline decoration-gray-950 underline-offset-8 decoration-1 mt-9 font-bold text-5xl p-3">Projects</div>
         </div>
         <div>github id : user941211</div>
         <div className="rounded-lg border p-5 m-5 bg-white">

@@ -10,7 +10,7 @@ const Skills = () => {
   return(
     <article className="bg-amber-200">
         <div className="max-w-6xl w-full mx-auto py-8 px-16 ">
-          <div className="Title_me underline decoration-gray-950 underline-offset-8 decoration-1 mt-9">Skills</div>
+          <div className="Title_me underline decoration-gray-950 underline-offset-8 decoration-1 mt-9 font-bold text-5xl p-3">Skills</div>
           <div className="grid grid-rows-2 grid-flow-col gap-4">
               <div className="row-span-2 rounded-lg border p-6 duration-300 hover:translate-y-4 bg-white">
                   <div className="pb-0.5 mb-1.5 border-b border-gray-300 max-w-lg font-bold text-2xl text-red-500">Frontend</div>
