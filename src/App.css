@@ -12,7 +12,12 @@
   background-size: cover;
   background-position: center;
 }
-
+.projects_title{
+  color:rgb(255 255 255);
+  font-family: Black Han Sans,sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
 .baseP{
   margin:0 auto;
   width:100%;
