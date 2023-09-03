@@ -36,32 +36,21 @@ const Header = ({onButtonClick}) => {
         <header className="fixed w-full bg-white shadow-md text-black z-10" style={headerStyle}>
             <div className="box-border w-full max-w-[71.25rem] h-[4.5rem] p-[1.25rem 2rem] mx-auto">
                 <nav className="flex items-center justify-between py-4 px-8">
-                    <div className="hidden md:block w-full ">
-                    {/* pc용 */}
-                    <h1 className="text-2xl font-bold float-left cursor-pointer" onClick={() => onButtonClick(1)}>BJS's Portfolio</h1>
-                    <div className="float-right ml-4 flex items-center">
-                        <div><button style={buttonStyle} className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(2)}>About Me</button></div>
-                        <div><button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(3)}>Skills</button></div>
-                        <div><button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(4)}>Projects</button></div>
+                    <div className="hidden md:flex w-full">
+                        {/* 데스크톱용 */}
+                        <h1 className="text-2xl font-bold float-left cursor-pointer" onClick={() => onButtonClick(1)}>BJS's Portfolio</h1>
+                        <div className="float-right ml-4 flex items-center">
+                            <div><button style={buttonStyle} className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(2)}>About Me</button></div>
+                            <div><button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(3)}>Skills</button></div>
+                            <div><button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(4)}>Projects</button></div>
+                        </div>
                     </div>
-                    </div>
-                    <div className="md:hidden">
-                    {/* 모바일용 미완 */}
+                    <div className="md:hidden w-full">
+                        {/* 모바일용 */}
                         <h1 className="text-2xl font-bold float-left cursor-pointer" onClick={() => onButtonClick(1)}>BJS's Portfolio</h1>
                         <button className="float-right px-4 font-bold hover:text-red-500 leading-8" onClick={toggleMenu}>
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-6 w-6"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                            >
-                                <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M4 6h16M4 12h16M4 18h16"
-                                />
+                            <svg xmlns="http://www.w3.org/2000/svg"  className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                             </svg>
                         </button>
                     </div>
@@ -69,35 +58,27 @@ const Header = ({onButtonClick}) => {
                 {isMenuOpen && (
                     <div className="md:hidden mt-4 bg-white duration-300">
                         <ul className="flex flex-col items-center space-y-4 text-black">
-                        <li>
-                            <button
-                            className="px-4 font-bold hover:text-red-500 leading-8"
-                            onClick={() => onButtonClick(2)}
-                            >
-                            About Me
-                            </button>
-                        </li>
-                        <li>
-                            <button
-                            className="px-4 font-bold hover:text-red-500 leading-8"
-                            onClick={() => onButtonClick(3)}
-                            >
-                            Skills
-                            </button>
-                        </li>
-                        <li>
-                            <button
-                            className="px-4 font-bold hover:text-red-500 leading-8"
-                            onClick={() => onButtonClick(4)}
-                            >
-                            Projects
-                            </button>
-                        </li>
+                            <li>
+                                <button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(2)}>
+                                    About Me
+                                </button>
+                            </li>
+                            <li>
+                                <button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(3)}>
+                                    Skills
+                                </button>
+                            </li>
+                            <li>
+                                <button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(4)}>
+                                    Projects
+                                </button>
+                            </li>
                         </ul>
                     </div>
                 )}
             </div>
         </header>
+
     );
 };
 
