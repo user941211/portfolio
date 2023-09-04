@@ -124,7 +124,7 @@ const Projects = () => {
                   <td className="underline decoration-sky-500 p-2 sm:p-3"><Link to="https://github.com/user941211/blog">NextJS13을 이용한 CRUD blog(코드)</Link></td>
                 </tr>
                 <tr>
-                  <td className="underline decoration-sky-500 p-2 sm:p-3"><Link to="https://blog-user941211.vercel.app//">NEXTJS blog(현재 배포중인 사이트)</Link></td>
+                  <td className="underline decoration-sky-500 p-2 sm:p-3"><Link to="https://blog-user941211.vercel.app/">NEXTJS blog(현재 배포중인 사이트)</Link></td>
                 </tr>
                 <tr>
                   <td className="font-bold p-2 sm:p-3">Frontend</td>
