@@ -11,7 +11,7 @@ const Projects = () => {
         <div className="rounded-lg border p-4 sm:p-5 m-3 sm:m-5 bg-white">
           <div>
             <div className="pb-2 text-center font-black-han-sans font-bold text-xl sm:text-2xl md:text-4xl text-gray-800">
-              쇼핑몰 사이트 하드코딩
+              쇼핑몰 사이트
             </div>
             <div className="mb-4 sm:mb-8 font-normal text-base sm:text-lg text-gray-600 text-center opacity-80">2022.07 - 08(3인 프로젝트)</div>
             <div className="w-full sm:w-8/12 mx-auto my-4 sm:my-5">웹이라는 것을 공부하고 나서 처음으로 진행한 프로젝트입니다. 정식으로 배우고 나서 프로젝트를 진행하는 것 보단 뭐라도 만들면서 학습하는 것이 좋다는 말에 따라 이 프로젝트를 진행하게 되었습니다.</div>
@@ -88,7 +88,7 @@ const Projects = () => {
                   <td className="underline decoration-sky-500 p-2 sm:p-3"><Link to="https://github.com/user941211/gaemi">주식추천 사이트(코드)</Link></td>
                 </tr>
                 <tr>
-                  <td className="underline decoration-sky-500 p-2 sm:p-3"><Link to="https://3.35.175.253:3000/">주식추천 사이트</Link></td>
+                  <td className="underline decoration-sky-500 p-2 sm:p-3"><Link to="http://3.35.175.253:3000/">주식추천 사이트</Link></td>
                 </tr>
                 <tr>
                   <td className="font-bold p-2 sm:p-3">Frontend</td>
@@ -96,7 +96,7 @@ const Projects = () => {
                 </tr>
                 <tr>
                   <td className="font-bold p-2 sm:p-3">Backend</td>
-                  <td className="p-2 sm:p-3">Mysql, AWS, Node_JS, Express, Python, Tensoflow</td>
+                  <td className="p-2 sm:p-3">Mysql, AWS, Node_JS, Express, Python, Tensorflow</td>
                 </tr>
                 <tr>
                   <td className="font-bold p-2 sm:p-3">Deployment</td>
