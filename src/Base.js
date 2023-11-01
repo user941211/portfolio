@@ -3,6 +3,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Activity from './components/Activity'
 
 const Base = () => {
   const handleButtonClick = (moduleId) => {
@@ -17,8 +18,8 @@ const Base = () => {
         <Header onButtonClick={handleButtonClick} />
         <div id="module-1" className="baseBackGroundImage" style={{ height: '500px' }}>
             <div style={{ height: '158px' }}></div>
-            <p className="baseP">- 변재성 -</p>
-            <p className="baseP">웹 개발자 포트폴리오</p>
+            {/* <p className="baseP">- 변재성 -</p> */}
+            <p className="baseP">Web Portfolio_BJS</p>
             
         </div>
         <div id="module-2">
@@ -29,6 +30,9 @@ const Base = () => {
         </div>
         <div id="module-4">
             <Projects />
+        </div>
+        <div id="module-5">
+            <Activity />
         </div>
     </div>
   );

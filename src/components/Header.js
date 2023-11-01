@@ -43,6 +43,7 @@ const Header = ({onButtonClick}) => {
                             <div><button style={buttonStyle} className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(2)}>About Me</button></div>
                             <div><button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(3)}>Skills</button></div>
                             <div><button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(4)}>Projects</button></div>
+                            <div><button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(5)}>Awards</button></div>
                         </div>
                     </div>
                     <div className="md:hidden w-full">
@@ -71,6 +72,11 @@ const Header = ({onButtonClick}) => {
                             <li>
                                 <button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(4)}>
                                     Projects
+                                </button>
+                            </li>
+                            <li>
+                                <button className="px-4 font-bold hover:text-red-500 leading-8" onClick={() => onButtonClick(5)}>
+                                    Awards
                                 </button>
                             </li>
                         </ul>
