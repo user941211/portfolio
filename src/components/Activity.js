@@ -6,7 +6,7 @@ const Activity = () => {
         <article className="gray">
             <div className="max-w-6xl w-full mx-auto py-4 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
                 <div className="Title_me decoration-gray-500 underline-offset-8 decoration-1 mt-9 font-bold text-4xl sm:text-5xl md:text-6xl p-3">
-                    Activity
+                    Awards
                 </div>
                 <div className="rounded-lg border p-4 sm:p-5 m-3 sm:m-5 bg-white">
                     <div align="center">

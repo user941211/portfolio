@@ -23,6 +23,7 @@ const Skills = () => {
                             <div><img src={html_css_js} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="HTML, CSS, 바닐라 JS" /></div>
                             <div><img src={react_logo} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="React" /></div>
                             <div><img src={bootstrap} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="부트스트랩" /></div>
+                            <div><img src={nextjs} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="nextjs" /></div>
                             <div><img src={tailwindcss} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="Tailwind CSS" /></div>
                         </div>
                     </div>
@@ -37,7 +38,6 @@ const Skills = () => {
                         <div>
                             <div><img src={mysql} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="속성-값 DB MySQL" /></div>
                             <div><img src={node_js} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="Node.js 기초" /></div>
-                            <div><img src={nextjs} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="nextjs" /></div>
                             <div><img src={MongoDB} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="nextjs" /></div>
                         </div>
                     </div>
