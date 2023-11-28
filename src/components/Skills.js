@@ -8,6 +8,7 @@ import bootstrap from '../image/bootstrap.png';
 import tailwindcss from '../image/tailwindcss.png';
 import nextjs from '../image/Nextjs.png';
 import MongoDB from '../image/MongoDB.png';
+import postgresql from  '../image/postgresql.png';
 
 const Skills = () => {
     return (
@@ -36,9 +37,10 @@ const Skills = () => {
                     <div className="rounded-lg border p-4 sm:p-6 duration-300 hover:translate-y-4 bg-white">
                         <div className="pb-0.5 mb-1.5 border-b border-gray-300 max-w-lg font-bold text-xl sm:text-2xl text-red-500 mx-auto">Backend</div>
                         <div>
-                            <div><img src={mysql} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="속성-값 DB MySQL" /></div>
-                            <div><img src={node_js} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="Node.js 기초" /></div>
+                            <div><img src={mysql} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="MySQL" /></div>
+                            <div><img src={node_js} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="Node.js" /></div>
                             <div><img src={MongoDB} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="nextjs" /></div>
+                            <div><img src={postgresql} className="object-contain w-48 sm:w-60 h-48 sm:h-60 mt-2 mx-auto" alt="postgresql!" /></div>
                         </div>
                     </div>
                 </div>
