@@ -73,10 +73,10 @@ const Projects = () => {
         <div className="rounded-lg border p-4 sm:p-5 m-3 sm:m-5 bg-white">
           <div>
             <div className="pb-2 text-center font-black-han-sans font-bold text-xl sm:text-2xl md:text-4xl text-gray-800">
-              주식정보 추천 프로젝트(졸업과제, 미완)
+              주식정보 추천 프로젝트(졸업과제)
             </div>
-            <div className="mb-4 sm:mb-8 font-normal text-base sm:text-lg text-gray-600 text-center opacity-80">2023.04 - 06(5인 프로젝트)</div>
-            <div className="w-full sm:w-8/12 mx-auto my-4 sm:my-5">2023년 한해동안 진행되는 졸업과제 프로젝트로, 햔제 완성되지는 않은 상태입니다. 자체적으로 주식 추천 알고리즘을 제작해, 일반 투자자들의 평균 투자 증감액보다 높은 금액을 가질 수 있게 하는 알고리즘을 제작하며, 그걸 웹을 통해 각각의 투자자 성향에 맞게 보여주고자 하는 목표를 가지고 있습니다.</div>
+            <div className="mb-4 sm:mb-8 font-normal text-base sm:text-lg text-gray-600 text-center opacity-80">2023.04 - 06, 11 - 12(5인 프로젝트)</div>
+            <div className="w-full sm:w-8/12 mx-auto my-4 sm:my-5">2023년 한해동안 진행되는 졸업과제 프로젝트로, 알고리즘으로 가중치를 두고 LSTM으로 학습시켜 간단하게 예측하는 프로젝트입니다. 일반 투자자들의 평균 투자 증감액보다 높은 금액을 가질 수 있게 하는 알고리즘을 제작하며, 그걸 웹을 통해 각각의 투자자 성향에 맞게 보여주고자 하는 목표를 가지고 있습니다.</div>
             <table className="mx-auto w-full sm:w-3/4 md:w-2/3 lg:w-1/2">
               <tbody>
                 <tr>
