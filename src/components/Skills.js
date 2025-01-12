@@ -13,9 +13,8 @@ import yolov8 from '../image/yolov8.jpg';
 import gitlab from '../image/gitlab.png';
 import oracle from '../image/oracle.jpg';
 import deepstream from '../image/deepstream.jpg';
-import ubuntu from '../image/ubuntu.png';
+import ubuntu from '../image/ubuntu.png'; 
 import windows from '../image/windows.png';
-
 const Skills = () => {
     return (
         <article className="bg-amber-200">
